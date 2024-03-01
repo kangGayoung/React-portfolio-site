@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@200;300;400;700;900&display=swap");
+
+$background: rgb(18, 18, 18);
+$mainColor: rgb(255, 180, 0);
+$deepColor: rgb(255, 166, 0);
+
+header {
+  color: white;
+  position: relative;
+  padding: 120px 0px;
+  text-align: center;
+
+  .head_bg_title {
+    font-family: "Black Han Sans", sans-serif;
+    font-size: 130px;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    text-transform: uppercase;
+    transform: translateY(-48%);
+    opacity: 0.07;
+    animation: letter 0.5s ease-in;
+  }
+  @keyframes letter {
+    from {
+      letter-spacing: 30px;
+    }
+    to {
+      letter-spacing: 24px;
+    }
+  }
+
+  .head_main_text {
+    font-family: "Black Han Sans", sans-serif;
+    font-size: 56px;
+    text-transform: uppercase;
+    margin: 10px auto;
+  }
+
+  .head_point_text {
+    font-family: "Black Han Sans", sans-serif;
+    margin-left: 12px;
+    color: $mainColor;
+  }
+}

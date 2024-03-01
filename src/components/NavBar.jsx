@@ -8,21 +8,21 @@ export default function NavBar(props) {
   useEffect(() => {
     setTimeout(() => {
       setFlip(true);
-    }, 1000);
+    }, 500);
     return () => setFlip(false);
   });
 
   return (
     <div className={["nav_wrapper", `${flip ? "on" : ""}`].join(" ")}>
       <ul>
-        <li>
+        <li className={props.page === "home" ? "active" : ""}>
           <Link to="/">
             <span>HOME</span>
             <FaHome className="nav_icon" />
           </Link>
         </li>
-        <li>
-          <Link to="/">
+        <li className={props.page === "about" ? "active" : ""}>
+          <Link to="/about">
             <span>ABOUT</span>
             <FaUser className="nav_icon" />
           </Link>
