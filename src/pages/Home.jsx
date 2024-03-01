@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
+import NavBar from "../components/NavBar";
 
 export default function Home() {
   return (
     <>
+      <NavBar page="home" />
       <main className="main_wrap">
         <div className="main_left">
           <div className="color_box"></div>
