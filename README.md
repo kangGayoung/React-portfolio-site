@@ -1,6 +1,7 @@
 <h1> React기반 개인 소개 사이트</h1>
 포트폴리오를 소개하기 위한 간단한 리액트 활용 사이트입니다.
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=React-portfolio-site)](https://github.com/React-portfolio-site/github-readme-stats)
 
 <h2> 프로젝트 소개</h2>
 
