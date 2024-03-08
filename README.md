@@ -1,5 +1,5 @@
 <h1> React기반 개인 소개 사이트</h1>
-<p align="center">
+<p align="justify">
   <br>
   <img width="80%" src="https://github.com/kangGayoung/React-portfolio-site/assets/96753948/5cef60e3-e2e0-4e8f-8792-64f8d77fb3e3"/>
   <br>
